@@ -1,0 +1,26 @@
+# Ambiente virtual
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+
+# Dados grandes (datasets baixados automaticamente)
+data/
+
+# Outputs (checkpoints, resultados, graficos)
+outputs/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
