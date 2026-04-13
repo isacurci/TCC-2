@@ -4,7 +4,6 @@ TCC sobre antifragilidade em redes neurais — avaliar como modelos se beneficia
 
 **Autora:** Isabella Curci de Barros
 **Orientador:** Prof. Me. Andre Roberto Ortoncelli
-**Universidade:** UTFPR
 
 ---
 

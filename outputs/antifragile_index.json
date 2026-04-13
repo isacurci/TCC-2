@@ -1,0 +1,77 @@
+{
+  "baseline_clean_acc": null,
+  "antifragile_index": [
+    {
+      "clean_acc": 84.45,
+      "mean_corruption_acc": 68.98,
+      "degradation_rate": 18.32,
+      "mca_normalized": 0.6898,
+      "antifragile_score": 81.68,
+      "model_name": "do00_l20e+00"
+    },
+    {
+      "clean_acc": 85.27,
+      "mean_corruption_acc": 69.09,
+      "degradation_rate": 18.98,
+      "mca_normalized": 0.6909,
+      "antifragile_score": 81.02,
+      "model_name": "do02_l25e-04"
+    },
+    {
+      "clean_acc": 84.92,
+      "mean_corruption_acc": 68.6,
+      "degradation_rate": 19.22,
+      "mca_normalized": 0.686,
+      "antifragile_score": 80.78,
+      "model_name": "do00_l25e-04"
+    },
+    {
+      "clean_acc": 83.84,
+      "mean_corruption_acc": 67.62,
+      "degradation_rate": 19.35,
+      "mca_normalized": 0.6762,
+      "antifragile_score": 80.65,
+      "model_name": "do05_l20e+00"
+    },
+    {
+      "clean_acc": 84.86,
+      "mean_corruption_acc": 68.21,
+      "degradation_rate": 19.62,
+      "mca_normalized": 0.6821,
+      "antifragile_score": 80.38,
+      "model_name": "do02_l20e+00"
+    },
+    {
+      "clean_acc": 85.5,
+      "mean_corruption_acc": 68.19,
+      "degradation_rate": 20.25,
+      "mca_normalized": 0.6819,
+      "antifragile_score": 79.75,
+      "model_name": "do02_l21e-03"
+    },
+    {
+      "clean_acc": 85.03,
+      "mean_corruption_acc": 67.8,
+      "degradation_rate": 20.26,
+      "mca_normalized": 0.678,
+      "antifragile_score": 79.74,
+      "model_name": "do00_l21e-03"
+    },
+    {
+      "clean_acc": 85.32,
+      "mean_corruption_acc": 67.97,
+      "degradation_rate": 20.34,
+      "mca_normalized": 0.6797,
+      "antifragile_score": 79.66,
+      "model_name": "do05_l21e-03"
+    },
+    {
+      "clean_acc": 84.32,
+      "mean_corruption_acc": 67.01,
+      "degradation_rate": 20.53,
+      "mca_normalized": 0.6701,
+      "antifragile_score": 79.47,
+      "model_name": "do05_l25e-04"
+    }
+  ]
+}
