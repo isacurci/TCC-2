@@ -1,6 +1,6 @@
 # Antifragilidade em Machine Learning
 
-TCC sobre antifragilidade em redes neurais — avaliar como modelos se beneficiam de volatilidade, erro e estresse usando regularizacao (dropout e L2) e avaliacao no dataset CIFAR-10-C (corrompido).
+TCC sobre antifragilidade em redes neurais. Esse trabalho busca avaliar como modelos se beneficiam de volatilidade, erro e estresse usando regularizacao (dropout e L2) no dataset CIFAR-10-C (corrompido).
 
 **Autora:** Isabella Curci de Barros
 **Orientador:** Prof. Me. Andre Roberto Ortoncelli
