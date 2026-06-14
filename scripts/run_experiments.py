@@ -455,7 +455,7 @@ def run(args):
     print(f"Device: {device}")
     os.makedirs(args.output_dir, exist_ok=True)
     out_path = os.path.join(args.output_dir,
-                            f"phase3_v2_{args.run_suffix}_results.json")
+                            f"phase3_v2{('_' + args.run_suffix) if args.run_suffix else ''}_results.json")
 
     # [CORREÇÃO C3] Grid de L2: {0,0 ; 1e-4 ; 5e-4} — consistente com texto
     dropout_rates = [float(x) for x in args.dropouts.split(",")]
@@ -570,7 +570,7 @@ def run(args):
                                        **extra_kwargs)
                     ckpt_path = os.path.join(
                         args.output_dir,
-                        f"{tag}_{args.run_suffix}_best.pt"
+                        f"{tag}{('_' + args.run_suffix) if args.run_suffix else ''}_best.pt"
                     )
 
                     if tag in all_results:
@@ -665,7 +665,7 @@ if __name__ == "__main__":
     parser.add_argument("--cifar10c_dir",    type=str,  default="./data/CIFAR-10-C",
                         help="Pasta com os arquivos .npy do CIFAR-10-C")
     parser.add_argument("--output_dir",      type=str,  default="./outputs")
-    parser.add_argument("--run_suffix",      type=str,  default="fixed",
+    parser.add_argument("--run_suffix",      type=str,  default="",
                         help="Sufixo para resultados/checkpoints desta rodada")
     parser.add_argument("--split_seed",      type=int,  default=42,
                         help="Seed do split dos dados")

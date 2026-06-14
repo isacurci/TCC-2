@@ -6,11 +6,11 @@ from torch.utils.data import DataLoader
 from sklearn.metrics import confusion_matrix
 import os
 
-from run_experiments_v2 import (
+from run_experiments import (
     ResNet18WithDropout,
     EfficientNetB0WithAttention,
-    get_cifar10_normal,
-    load_cifar10c_as_tensordataset,
+    get_cifar10_loader,
+    load_cifar10c_dataset,
     split_base_image_indices,
 )
 
@@ -30,12 +30,12 @@ def get_preds(model, loader):
 # --- Recriar os loaders de teste exatamente como no treino (sem leakage) ---
 cr_train_idx, cr_val_idx, cr_test_idx = split_base_image_indices(seed=42)
 
-ds_noise_test = load_cifar10c_as_tensordataset(
+ds_noise_test = load_cifar10c_dataset(
     "./data/CIFAR-10-C", image_indices=cr_test_idx
 )
 loader_cr_test = DataLoader(ds_noise_test, batch_size=128, shuffle=False)
 
-loader_cn_test = get_cifar10_normal(
+loader_cn_test = get_cifar10_loader(
     "./data", train=False, batch_size=128, indices=cr_test_idx
 )
 
@@ -43,7 +43,7 @@ loader_cn_test = get_cifar10_normal(
 with open("outputs/phase3_v2_results.json") as f:
     results_old = json.load(f)
 
-with open("outputs/phase3_v2_noleak_cr_results.json") as f:
+with open("outputs/phase3_v2_cr_results.json") as f:
     results_cr_new = json.load(f)
 
 # Mantem apenas CN do arquivo antigo, e usa CR do arquivo novo (sem leakage)
