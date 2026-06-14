@@ -1,0 +1,650 @@
+{
+  "ResNet_CN_D0.0_L0.0": {
+    "modelo": "ResNet + D0.0 + R0.0",
+    "cenario_treino": "CN",
+    "dropout": 0.0,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 0.8439,
+      "precisao": 0.8443,
+      "recall": 0.8439,
+      "f1": 0.8438
+    },
+    "cifar_ruido": {
+      "acuracia": 0.726,
+      "precisao": 0.7468,
+      "recall": 0.726,
+      "f1": 0.7309
+    }
+  },
+  "ResNet_CN_D0.0_L0.0001": {
+    "modelo": "ResNet + D0.0 + R0.0001",
+    "cenario_treino": "CN",
+    "dropout": 0.0,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 0.8458,
+      "precisao": 0.846,
+      "recall": 0.8458,
+      "f1": 0.8457
+    },
+    "cifar_ruido": {
+      "acuracia": 0.733,
+      "precisao": 0.7474,
+      "recall": 0.733,
+      "f1": 0.7365
+    }
+  },
+  "ResNet_CN_D0.0_L0.0005": {
+    "modelo": "ResNet + D0.0 + R0.0005",
+    "cenario_treino": "CN",
+    "dropout": 0.0,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 0.8516,
+      "precisao": 0.8516,
+      "recall": 0.8516,
+      "f1": 0.8514
+    },
+    "cifar_ruido": {
+      "acuracia": 0.7348,
+      "precisao": 0.7511,
+      "recall": 0.7348,
+      "f1": 0.7386
+    }
+  },
+  "ResNet_CN_D0.2_L0.0": {
+    "modelo": "ResNet + D0.2 + R0.0",
+    "cenario_treino": "CN",
+    "dropout": 0.2,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 0.8418,
+      "precisao": 0.8417,
+      "recall": 0.8418,
+      "f1": 0.8415
+    },
+    "cifar_ruido": {
+      "acuracia": 0.7305,
+      "precisao": 0.7478,
+      "recall": 0.7305,
+      "f1": 0.7341
+    }
+  },
+  "ResNet_CN_D0.2_L0.0001": {
+    "modelo": "ResNet + D0.2 + R0.0001",
+    "cenario_treino": "CN",
+    "dropout": 0.2,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 0.844,
+      "precisao": 0.8439,
+      "recall": 0.844,
+      "f1": 0.8437
+    },
+    "cifar_ruido": {
+      "acuracia": 0.7336,
+      "precisao": 0.7485,
+      "recall": 0.7336,
+      "f1": 0.737
+    }
+  },
+  "ResNet_CN_D0.2_L0.0005": {
+    "modelo": "ResNet + D0.2 + R0.0005",
+    "cenario_treino": "CN",
+    "dropout": 0.2,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 0.8523,
+      "precisao": 0.8521,
+      "recall": 0.8523,
+      "f1": 0.852
+    },
+    "cifar_ruido": {
+      "acuracia": 0.7357,
+      "precisao": 0.7514,
+      "recall": 0.7357,
+      "f1": 0.7388
+    }
+  },
+  "ResNet_CN_D0.5_L0.0": {
+    "modelo": "ResNet + D0.5 + R0.0",
+    "cenario_treino": "CN",
+    "dropout": 0.5,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 0.842,
+      "precisao": 0.8415,
+      "recall": 0.842,
+      "f1": 0.8416
+    },
+    "cifar_ruido": {
+      "acuracia": 0.7307,
+      "precisao": 0.7446,
+      "recall": 0.7307,
+      "f1": 0.7339
+    }
+  },
+  "ResNet_CN_D0.5_L0.0001": {
+    "modelo": "ResNet + D0.5 + R0.0001",
+    "cenario_treino": "CN",
+    "dropout": 0.5,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 0.8433,
+      "precisao": 0.8436,
+      "recall": 0.8433,
+      "f1": 0.843
+    },
+    "cifar_ruido": {
+      "acuracia": 0.7286,
+      "precisao": 0.7479,
+      "recall": 0.7286,
+      "f1": 0.7317
+    }
+  },
+  "ResNet_CN_D0.5_L0.0005": {
+    "modelo": "ResNet + D0.5 + R0.0005",
+    "cenario_treino": "CN",
+    "dropout": 0.5,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 0.855,
+      "precisao": 0.8551,
+      "recall": 0.855,
+      "f1": 0.855
+    },
+    "cifar_ruido": {
+      "acuracia": 0.7346,
+      "precisao": 0.7488,
+      "recall": 0.7346,
+      "f1": 0.7383
+    }
+  },
+  "ResNet_CR_D0.0_L0.0": {
+    "modelo": "ResNet + D0.0 + R0.0",
+    "cenario_treino": "CR",
+    "dropout": 0.0,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "ResNet_CR_D0.0_L0.0001": {
+    "modelo": "ResNet + D0.0 + R0.0001",
+    "cenario_treino": "CR",
+    "dropout": 0.0,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "ResNet_CR_D0.0_L0.0005": {
+    "modelo": "ResNet + D0.0 + R0.0005",
+    "cenario_treino": "CR",
+    "dropout": 0.0,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9997,
+      "precisao": 0.9997,
+      "recall": 0.9997,
+      "f1": 0.9997
+    }
+  },
+  "ResNet_CR_D0.2_L0.0": {
+    "modelo": "ResNet + D0.2 + R0.0",
+    "cenario_treino": "CR",
+    "dropout": 0.2,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "ResNet_CR_D0.2_L0.0001": {
+    "modelo": "ResNet + D0.2 + R0.0001",
+    "cenario_treino": "CR",
+    "dropout": 0.2,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "ResNet_CR_D0.2_L0.0005": {
+    "modelo": "ResNet + D0.2 + R0.0005",
+    "cenario_treino": "CR",
+    "dropout": 0.2,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "ResNet_CR_D0.5_L0.0": {
+    "modelo": "ResNet + D0.5 + R0.0",
+    "cenario_treino": "CR",
+    "dropout": 0.5,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9997,
+      "precisao": 0.9997,
+      "recall": 0.9997,
+      "f1": 0.9997
+    }
+  },
+  "ResNet_CR_D0.5_L0.0001": {
+    "modelo": "ResNet + D0.5 + R0.0001",
+    "cenario_treino": "CR",
+    "dropout": 0.5,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "ResNet_CR_D0.5_L0.0005": {
+    "modelo": "ResNet + D0.5 + R0.0005",
+    "cenario_treino": "CR",
+    "dropout": 0.5,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9997,
+      "precisao": 0.9997,
+      "recall": 0.9997,
+      "f1": 0.9997
+    }
+  },
+  "EfficientNetB0_CN_D0.0_L0.0": {
+    "modelo": "EfficientNetB0 + D0.0 + R0.0",
+    "cenario_treino": "CN",
+    "dropout": 0.0,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 0.8032,
+      "precisao": 0.8033,
+      "recall": 0.8032,
+      "f1": 0.8028
+    },
+    "cifar_ruido": {
+      "acuracia": 0.6642,
+      "precisao": 0.6846,
+      "recall": 0.6642,
+      "f1": 0.6681
+    }
+  },
+  "EfficientNetB0_CN_D0.0_L0.0001": {
+    "modelo": "EfficientNetB0 + D0.0 + R0.0001",
+    "cenario_treino": "CN",
+    "dropout": 0.0,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 0.8165,
+      "precisao": 0.8157,
+      "recall": 0.8165,
+      "f1": 0.8157
+    },
+    "cifar_ruido": {
+      "acuracia": 0.6561,
+      "precisao": 0.6848,
+      "recall": 0.6561,
+      "f1": 0.6602
+    }
+  },
+  "EfficientNetB0_CN_D0.0_L0.0005": {
+    "modelo": "EfficientNetB0 + D0.0 + R0.0005",
+    "cenario_treino": "CN",
+    "dropout": 0.0,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 0.8146,
+      "precisao": 0.8144,
+      "recall": 0.8146,
+      "f1": 0.8141
+    },
+    "cifar_ruido": {
+      "acuracia": 0.6603,
+      "precisao": 0.6895,
+      "recall": 0.6603,
+      "f1": 0.6657
+    }
+  },
+  "EfficientNetB0_CN_D0.2_L0.0": {
+    "modelo": "EfficientNetB0 + D0.2 + R0.0",
+    "cenario_treino": "CN",
+    "dropout": 0.2,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 0.8012,
+      "precisao": 0.8003,
+      "recall": 0.8012,
+      "f1": 0.8004
+    },
+    "cifar_ruido": {
+      "acuracia": 0.6625,
+      "precisao": 0.6868,
+      "recall": 0.6625,
+      "f1": 0.6667
+    }
+  },
+  "EfficientNetB0_CN_D0.2_L0.0001": {
+    "modelo": "EfficientNetB0 + D0.2 + R0.0001",
+    "cenario_treino": "CN",
+    "dropout": 0.2,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 0.8167,
+      "precisao": 0.8157,
+      "recall": 0.8167,
+      "f1": 0.8158
+    },
+    "cifar_ruido": {
+      "acuracia": 0.6662,
+      "precisao": 0.693,
+      "recall": 0.6662,
+      "f1": 0.6711
+    }
+  },
+  "EfficientNetB0_CN_D0.2_L0.0005": {
+    "modelo": "EfficientNetB0 + D0.2 + R0.0005",
+    "cenario_treino": "CN",
+    "dropout": 0.2,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 0.8036,
+      "precisao": 0.8021,
+      "recall": 0.8036,
+      "f1": 0.8024
+    },
+    "cifar_ruido": {
+      "acuracia": 0.6578,
+      "precisao": 0.6813,
+      "recall": 0.6578,
+      "f1": 0.6612
+    }
+  },
+  "EfficientNetB0_CN_D0.5_L0.0": {
+    "modelo": "EfficientNetB0 + D0.5 + R0.0",
+    "cenario_treino": "CN",
+    "dropout": 0.5,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 0.7936,
+      "precisao": 0.7951,
+      "recall": 0.7936,
+      "f1": 0.7935
+    },
+    "cifar_ruido": {
+      "acuracia": 0.653,
+      "precisao": 0.6819,
+      "recall": 0.653,
+      "f1": 0.6581
+    }
+  },
+  "EfficientNetB0_CN_D0.5_L0.0001": {
+    "modelo": "EfficientNetB0 + D0.5 + R0.0001",
+    "cenario_treino": "CN",
+    "dropout": 0.5,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 0.8013,
+      "precisao": 0.8019,
+      "recall": 0.8013,
+      "f1": 0.8015
+    },
+    "cifar_ruido": {
+      "acuracia": 0.6606,
+      "precisao": 0.685,
+      "recall": 0.6606,
+      "f1": 0.666
+    }
+  },
+  "EfficientNetB0_CN_D0.5_L0.0005": {
+    "modelo": "EfficientNetB0 + D0.5 + R0.0005",
+    "cenario_treino": "CN",
+    "dropout": 0.5,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 0.8121,
+      "precisao": 0.8112,
+      "recall": 0.8121,
+      "f1": 0.8113
+    },
+    "cifar_ruido": {
+      "acuracia": 0.6555,
+      "precisao": 0.6825,
+      "recall": 0.6555,
+      "f1": 0.6588
+    }
+  },
+  "EfficientNetB0_CR_D0.0_L0.0": {
+    "modelo": "EfficientNetB0 + D0.0 + R0.0",
+    "cenario_treino": "CR",
+    "dropout": 0.0,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "EfficientNetB0_CR_D0.0_L0.0001": {
+    "modelo": "EfficientNetB0 + D0.0 + R0.0001",
+    "cenario_treino": "CR",
+    "dropout": 0.0,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "EfficientNetB0_CR_D0.0_L0.0005": {
+    "modelo": "EfficientNetB0 + D0.0 + R0.0005",
+    "cenario_treino": "CR",
+    "dropout": 0.0,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9995,
+      "precisao": 0.9995,
+      "recall": 0.9995,
+      "f1": 0.9995
+    }
+  },
+  "EfficientNetB0_CR_D0.2_L0.0": {
+    "modelo": "EfficientNetB0 + D0.2 + R0.0",
+    "cenario_treino": "CR",
+    "dropout": 0.2,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "EfficientNetB0_CR_D0.2_L0.0001": {
+    "modelo": "EfficientNetB0 + D0.2 + R0.0001",
+    "cenario_treino": "CR",
+    "dropout": 0.2,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "EfficientNetB0_CR_D0.2_L0.0005": {
+    "modelo": "EfficientNetB0 + D0.2 + R0.0005",
+    "cenario_treino": "CR",
+    "dropout": 0.2,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9995,
+      "precisao": 0.9995,
+      "recall": 0.9995,
+      "f1": 0.9995
+    }
+  },
+  "EfficientNetB0_CR_D0.5_L0.0": {
+    "modelo": "EfficientNetB0 + D0.5 + R0.0",
+    "cenario_treino": "CR",
+    "dropout": 0.5,
+    "l2": 0.0,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "EfficientNetB0_CR_D0.5_L0.0001": {
+    "modelo": "EfficientNetB0 + D0.5 + R0.0001",
+    "cenario_treino": "CR",
+    "dropout": 0.5,
+    "l2": 0.0001,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9998,
+      "precisao": 0.9998,
+      "recall": 0.9998,
+      "f1": 0.9998
+    }
+  },
+  "EfficientNetB0_CR_D0.5_L0.0005": {
+    "modelo": "EfficientNetB0 + D0.5 + R0.0005",
+    "cenario_treino": "CR",
+    "dropout": 0.5,
+    "l2": 0.0005,
+    "cifar_normal": {
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cifar_ruido": {
+      "acuracia": 0.9994,
+      "precisao": 0.9994,
+      "recall": 0.9994,
+      "f1": 0.9994
+    }
+  }
+}
