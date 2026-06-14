@@ -22,9 +22,30 @@ def load_robustness_results(outputs_dir):
     """Carrega todos os JSONs de robustez do diretorio."""
     results = []
     out = Path(outputs_dir)
+
+    # Primeiro, tenta carregar arquivos individuais *_robustness.json
     for f in sorted(out.glob("*_robustness.json")):
         with open(f) as fp:
             results.append(json.load(fp))
+
+    # Se nenhum arquivo individual encontrado, tenta carregar phase3_results.json
+    if not results:
+        phase3_file = out / "phase3_results.json"
+        if phase3_file.exists():
+            with open(phase3_file) as fp:
+                data = json.load(fp)
+                # Extrai resultados do formato phase3_results.json
+                for model_key, model_data in data.get("results", {}).items():
+                    # Converte para o formato esperado
+                    result = {
+                        "model_name": model_key,
+                        "clean_acc": model_data.get("best_test_acc", 0),
+                        "mean_corruption_acc": model_data.get("mean_corruption_acc", 0),
+                        # Mantém outros campos se necessário
+                        "corruption_results": model_data.get("corruption_results", {})
+                    }
+                    results.append(result)
+
     return results
 
 
