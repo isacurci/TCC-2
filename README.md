@@ -15,12 +15,13 @@ tcc/
 │   ├── run_experiments.py   ← pipeline principal (treinamento + avaliação)
 │   └── matriz.py            ← geração das matrizes de confusão (Figuras 3–6)
 ├── outputs/
-│   ├── {Modelo}_{Cenario}_D{dropout}_L{l2}_best.pt   ← checkpoints finais (36 arquivos)
 │   ├── confusion_matrices/  ← matrizes de confusão dos 4 melhores experimentos
 │   ├── phase3_v2_results.json     ← resultados CN (Tabelas 1–2)
 │   └── phase3_v2_cr_results.json  ← resultados CR (Tabelas 3–4)
 └── _descartado/             ← scripts e checkpoints de fases exploratórias anteriores
 ```
+
+> **Checkpoints (.pt):** Os checkpoints treinados não são versionados neste repositório devido ao tamanho (~1.1 GB). São totalmente reproduzíveis executando `run_experiments.py` com a configuração e seed (42) documentadas neste README. Os resultados numéricos (JSONs) e as matrizes de confusão (Figuras 3–6) estão incluídos no repositório.
 
 ---
 

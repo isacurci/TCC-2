@@ -6,6 +6,10 @@ env/
 # Dados (baixados automaticamente pelo pipeline)
 data/
 
+# Checkpoints treinados (~1.1 GB) — reproduzíveis via run_experiments.py
+outputs/*.pt
+_descartado/outputs/*.pt
+
 # Python
 __pycache__/
 *.pyc
