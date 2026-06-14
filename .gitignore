@@ -1,26 +1,21 @@
 # Ambiente virtual
 venv/
+env/
+.venv/
+
+# Dados (baixados automaticamente pelo pipeline)
+data/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-env/
-.venv/
 
-# Dados grandes (datasets baixados automaticamente)
-data/
-
-# Outputs (checkpoints, resultados, graficos) - descomentado para subir
-# outputs/
-
-# Logs
+# Logs e IDE
 *.log
-
-# IDE
 .vscode/
 .idea/
-
-# OS
 .DS_Store
 Thumbs.db
