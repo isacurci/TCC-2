@@ -1,6 +1,6 @@
 # Antifragilidade em Machine Learning
 
-TCC sobre antifragilidade em redes neurais. O trabalho investiga se modelos treinados com regularização (Dropout e L2) se tornam mais robustos — e potencialmente antifrágeis — quando expostos a distribuições corrompidas (CIFAR-10-C). Dois modelos (ResNet18 e EfficientNetB0) são treinados em dois cenários (CN: treino/avaliação no CIFAR-10 limpo; CR: treino/avaliação no CIFAR-10-C corrompido) com um grid de Dropout {0.0, 0.2, 0.5} × L2 {0.0, 1e-4, 5e-4}, totalizando 36 combinações por cenário.
+TCC sobre antifragilidade em redes neurais. O trabalho investiga se modelos treinados com regularização (Dropout e L2) se tornam mais robustos e potencialmente antifrágeis quando expostos a distribuições corrompidas (CIFAR-10-C). Dois modelos (ResNet18 e EfficientNetB0) são treinados em dois cenários (CN: treino/avaliação no CIFAR-10 limpo; CR: treino/avaliação no CIFAR-10-C corrompido) com um grid de Dropout {0.0, 0.2, 0.5} × L2 {0.0, 1e-4, 5e-4}, totalizando 36 combinações por cenário.
 
 **Autora:** Isabella Curci de Barros
 **Orientador:** Prof. Me. Andre Roberto Ortoncelli
