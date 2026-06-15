@@ -58,4 +58,4 @@ Contém scripts de fases exploratórias anteriores (`train_dropout.py`, `train_l
 
 - Python 3.9+
 - PyTorch com CUDA (`--index-url https://download.pytorch.org/whl/cu126`)
-- torchvision, matplotlib, numpy, tqdm, Pillow
+- torchvision, matplotlib, numpy, tqdm, Pillow, scikit-learn, kagglehub (opcional, p/ download automático do CIFAR-10-C)
